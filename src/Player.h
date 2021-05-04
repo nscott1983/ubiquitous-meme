@@ -6,6 +6,7 @@
 class Player {
 public:
 	Player();
+	Player(std::string name, int level, std::string job);
 	~Player();
 	friend std::ostream& operator<<(std::ostream &os, const Player &player);
 private:

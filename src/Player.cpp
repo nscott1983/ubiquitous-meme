@@ -2,6 +2,9 @@
 
 Player::Player() : name{"Nick Scott"}, level {1}, job { "Software Engineer"} {}
 
+Player::Player(std::string name, int level, std::string job) :
+	name{name}, level{level}, job{job} {}
+
 Player::~Player() {}
 
 std::ostream& operator<<(std::ostream& os, const Player& player) {
