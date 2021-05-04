@@ -1,4 +1,4 @@
-#include "Player.h"
+#include "src/Player.h"
 
 int main() {
 	Player player;
